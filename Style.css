@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body {
+    background-color: black;
+}
+
+/* TODO CSS REFERENTE AO HEADER! */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #33A8DB;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(./assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-content{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 52px 0px;
+}
+
+.banner-content .logo img{
+    width: 210px;
+    height: 210px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 100%;
+    margin: 25px 0px;
+}
+
+.banner-content h1{
+    color:#33A8DB;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 47px;
+    margin-bottom: 10px;
+}
+
+.banner-content p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 23px;
+    text-align: center;
+    line-height: 23.48px;
+    color: #fff; 
+    margin-bottom: 25px;
+}
+
+.banner-content button{
+    background-color: transparent;
+    border-color: #33A8DB;
+    color: #33A8DB;
+    padding: 17px 70px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    transition: .2s all;
+    /* text-transform: uppercase; */
+}
+
+.banner-content button:hover{
+    cursor: pointer;
+    color: #fff;
+    transform: scale(103%);
+    border-radius: 15px;
+    background-color: #33a9db37;
+}
+
+/* FIM DO HEADER */
+
+
+/* TODA PARTE REFERENTE AO - O QUE EU VOU APRENDER-  */
+
+main #course-content{
+    text-align: center;
+    width: 950px;
+    margin: auto;
+    padding: 80px;
+    margin-bottom: 70px;
+}
+
+main #course-content h2{
+    color: #33A8DB;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    margin-bottom: 15px;
+}
+main #course-content p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #fff;
+}   
+
+main .modules-list .module{
+    margin: auto;
+    border: 2px solid #33A8DB;
+    width: 75%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 16px;
+    background-color: #252525;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    transition: .2s all;
+}
+main .modules-list .module span{
+    color: #33A8DB;
+}
+
+main .modules-list .module:hover{
+    transform: scale(102%);
+    cursor: pointer;
+}
+/* FIM DESSE TRECHO */
+
+
+/* TODA PARTE REFERENTE AO - TRANSFORME O MUNDO COM A GENTE- */
+main #transform-world{
+    background-image: url(./assets/images/woman-code.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 480px;
+    background-color: transparent;
+    border-top: 1px solid #33A8DB;
+}
+
+main #transform-world p{
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 250px;
+    color: #fff;
+    text-shadow: 3px 3px 1px #33A8DB;
+    margin-left: 200px;
+    padding-top: 150px;
+}
+
+/* FIM DESSE TRECHO */
+
+
+/* TODA PARTE REFERENTE AO - Evolua e encare novos desafios profissionais-  */
+
+main #professional-challenges{
+    text-align: center;
+    padding: 70px 0px;
+    border-top: 1px solid #33A8DB;
+}
+
+main #professional-challenges h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+main #professional-challenges p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 19px; 
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    margin-top: 25px;
+}
+
+
+/* FIM DESSE TRECHO */
+
+
+/* TODA PARTE REFERENTE AO FOOTER */
+
+footer{
+    border-top: 1px solid #33A8DB;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+}
+
+footer p{
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 19px;
+    margin-top: 7px;
+    transition: .2s all;
+}
+
+footer p a{
+    color: #33A8DB;
+    text-decoration: none;
+    transition: .2s all;
+}
+
+footer .ass{
+    font-size: 8px;
+    transition: .3s ease-in-out;
+}
+
+footer .ass:hover{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FIM DESSE TRECHO */
